@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "io.github.rk4500.archer-bluetooth",
-  "name": "Archer Bluetooth",
+  "id": "io.github.rk4500.bluetooth-tooltip",
+  "name": "Bluetooth Panel with Tooltip",
   "version": "1.0.0",
-  "author": "Omarchy",
+  "author": "rk4500 (fork of Omarchy)",
   "description": "Bluetooth device list with connect/disconnect",
   "kinds": [
     "bar-widget"
@@ -12,12 +12,13 @@
     "barWidget": "Panel.qml"
   },
   "barWidget": {
-    "displayName": "Archer Bluetooth",
+    "displayName": "Bluetooth Panel with Tooltip",
     "description": "Bluetooth device list with connect/disconnect",
     "category": "Network",
     "allowMultiple": false
   },
   "omarchy": {
     "clonedFrom": "omarchy.bluetooth"
-  }
+  },
+  "homepage": "https://github.com/rk4500/omarchy-bluetooth-tooltip"
 }
